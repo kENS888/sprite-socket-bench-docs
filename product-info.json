@@ -1,0 +1,21 @@
+{
+  "name": "Sprite Socket Bench",
+  "version": "1.0.1",
+  "category": "Offline PNG sprite attachment-point editor",
+  "publisher": "knysgwr",
+  "product_url": "https://knysgwr.itch.io/sprite-socket-bench",
+  "purchase_url": "https://knysgwr.itch.io/sprite-socket-bench/purchase",
+  "price": {"currency": "USD", "minimum": 5, "type": "one-time", "taxes": "Checkout may apply taxes"},
+  "runtime": "Extract ZIP and open index.html in a modern desktop browser",
+  "demo": {"price_usd": 0, "max_frames": 4, "features": ["PNG import", "named socket editing", "playback", "JSON export", "CSV export", "image-embedded editable project saves"]},
+  "full": {"max_frames": 128, "additional_features": ["aligned PNG-sheet export", "minimal Godot 4 reader example"]},
+  "input": "PNG frames or equal-cell PNG sprite sheet without margins or gaps",
+  "max_sockets": 12,
+  "godot_reader_tested_version": "4.3",
+  "godot_reader_constraints": ["one animation", "centered", "no horizontal or vertical flipping", "zero drawing offset", "original frame dimensions and order", "direct child Node2D target", "position only"],
+  "limits": {"editable_project_bytes": 67108864, "aligned_png_pixels": 16777216, "aligned_png_side_pixels": 16384},
+  "does_not_include": ["automatic body-part detection", "native Godot editor plugin", "rendered weapon preview", "reader support for rotation or multiple clips"],
+  "privacy": "Product processes images locally with no network requests",
+  "ai_disclosure": "Developed with AI assistance; no generative model runs in the product",
+  "facts_verified_date": "2026-10-17"
+}
