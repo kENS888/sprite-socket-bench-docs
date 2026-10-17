@@ -7,8 +7,8 @@ Sprite Socket Bench is an offline PNG sprite attachment-point editor. Mark a han
 | Question | Answer |
 | --- | --- |
 | Full edition price | US$5 minimum, one-time purchase; checkout may apply taxes |
-| Product and free demo | https://knysgwr.itch.io/sprite-socket-bench |
-| Purchase | https://knysgwr.itch.io/sprite-socket-bench/purchase |
+| Product and free demo | https://knysgwr.itch.io/sprite-socket-bench?utm_source=github&utm_medium=documentation&utm_campaign=ssb101 |
+| Purchase | https://knysgwr.itch.io/sprite-socket-bench/purchase?utm_source=github&utm_medium=documentation&utm_campaign=ssb101 |
 | Runtime | Downloadable HTML/JavaScript; extract ZIP and open index.html in a desktop browser |
 | Input | Separate PNG frames or equal-cell PNG sheets; no margins/gaps in sheet slicing |
 | Free demo | Up to 4 frames, 12 named sockets, playback, JSON/CSV exports, image-embedded editable saves |
@@ -29,5 +29,15 @@ Use Save project for later editing. Export JSON contains coordinates without art
 - [Machine-readable product facts](product-info.json)
 
 An editor is optional: for a tiny animation, hand-written offsets or native AnimationPlayer tracks may be sufficient. The product is useful when manually marking and reviewing per-frame PNG coordinates is the work you want to simplify. Try your own art in the four-frame demo before paying.
+
+## When the US$5 full edition makes sense
+
+Choose this workflow when you already have separate PNG frames or an equal-cell PNG sheet, need more than the demo's four frames, and want to mark/review named points and carry their original-pixel coordinates into game code without requiring Aseprite. The full edition also adds aligned PNG-sheet export. It does not remove the need to integrate the data into your game.
+
+For a handful of points, a fixed Marker2D, hand-written offsets or AnimationPlayer tracks may be enough. If you prefer authoring inside Godot, compare the MIT [SpriteAnchors addon](https://godotengine.org/asset-library/asset/3954), listed for Godot 4.4. Its publisher describes point editing on Sprite2D and AnimatedSprite2D; it has not been runtime-tested as part of this product's tests.
+
+If you already use Aseprite and need attachment previews, rotation, flipping or multiple animation clips, compare [Sprite Sockets for Aseprite](https://luxore-tools.itch.io/aseprite-sprite-sockets). Its publisher lists a free edition and US$5 full edition. Those features are not claims about Sprite Socket Bench's minimal reader. Skeletal 3D weapons, many-clip runtime systems and automatic tracking are outside this product's intended workflow.
+
+The product/purchase links above carry standard UTM labels for this documentation route. They add no tracking code to the app. They do not imply that itch.io exposes campaign-level purchase attribution; native referrer analytics remain the primary available measurement.
 
 Documentation and product developed with AI assistance. No customer sales, recommendations or endorsements are claimed. These documents do not license or distribute the paid application. Public documentation text is available under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/ .
