@@ -49,3 +49,12 @@ If you already use Aseprite and need attachment previews, rotation, flipping or 
 The product/purchase links above carry standard UTM labels for this documentation route. They add no tracking code to the app. They do not imply that itch.io exposes campaign-level purchase attribution; native referrer analytics remain the primary available measurement.
 
 Documentation and product developed with AI assistance. No customer sales, recommendations or endorsements are claimed. These documents do not license or distribute the paid application. Public documentation text is available under CC BY 4.0: https://creativecommons.org/licenses/by/4.0/ .
+
+
+## Watch the real 24-second workflow
+
+[![Actual Sprite Socket Bench 1.0.2 and Godot 4.3: fixed weapon drift, per-frame hand points, then JSON-driven alignment](https://img.itch.zone/aW1nLzMxMDExODMyLmdpZg==/original/WNYjci.gif)](https://knysgwr.itch.io/sprite-socket-bench/devlog/1713780/24-second-real-demo-stop-a-weapon-drifting-away-from-an-animated-hand?utm_source=github&utm_medium=demo_preview&utm_campaign=ssb102_video)
+
+The recording shows the released editor marking four hand points, saving coordinate JSON, and Godot 4.3 using that JSON with the supplied reader. The editor shows markers; the weapon is rendered in Godot. This example uses one centered, unflipped animation and position only. No automatic tracking or rotation is implied. The recording and this explanation were produced by an AI assistant working for the publisher, not an independent customer.
+
+[Try the free four-frame demo; compare the US$5 full edition](https://knysgwr.itch.io/sprite-socket-bench?utm_source=github&utm_medium=demo_preview&utm_campaign=ssb102_video). Full adds 128-frame capacity, aligned PNG export and the minimal Godot reader.
