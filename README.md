@@ -2,7 +2,7 @@
 
 Sprite Socket Bench is an offline PNG sprite attachment-point editor. Mark a hand, muzzle or foot point in each animation frame; export coordinates for game code. This documentation is maintained by the product's publisher. It contains no paid application source, PNG exporter implementation or packaged Godot reader.
 
-## Product facts — version 1.0.1
+## Product facts — version 1.0.2
 
 | Question | Answer |
 | --- | --- |
@@ -21,7 +21,15 @@ Sprite Socket Bench is an offline PNG sprite attachment-point editor. Mark a han
 
 Use Save project for later editing. Export JSON contains coordinates without artwork; CSV is for review. Neither is an editable artwork backup. Aligned PNG output changes frame layout: the original-frame coordinates must not be reused unchanged with that sheet.
 
+## Editing safety in 1.0.2
+
+Deletion confirmation and 30-edit Undo protect frame/socket edits. Unsaved-work warnings cover project replacement and page departure. Best-effort same-tab recovery preserves the last valid snapshot on invalid coordinate input or storage failure; it is limited to 2 million JSON characters and does not guarantee recovery after crashes, tab closure or power loss. Save a project file, verify the download, then click Confirm file saved. The full README includes a Godot 4.3 weapon-follow tutorial and aligned-PNG region guidance. The full license permits embedding/distributing the included reader in your own commercial games/apps; editor redistribution remains prohibited.
+
+Report bugs in this repository's Issues or the product comments. For private purchase/refund requests use https://itch.io/support and provide your receipt privately. Do not post confidential art or order data in public.
+
 ## Practical guides
+
+- [1.0.2 release notes: editing safety, recovery fix and sales resumed](https://knysgwr.itch.io/sprite-socket-bench/devlog/1713757/sprite-socket-bench-102-safer-editing-recovery-fix-and-sales-resumed)
 
 - [Why a muzzle flash drifts during a walk animation](attachment-troubleshooting.md)
 - [Godot walkthrough](https://knysgwr.itch.io/sprite-socket-bench/devlog/1703095/from-png-hand-positions-to-a-weapon-attachment-in-godot-4)
